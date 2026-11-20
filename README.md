@@ -5,7 +5,7 @@ An AI-powered portfolio builder designed to help students and fresh graduates cr
 ## 🚀 Features
 
 - **Portfolio Builder:** Create a portfolio using a simple step-by-step form.
-- **AI Writing Assistant:** Improve About Me sections and project descriptions using Google Gemini.
+- **AI Writing Assistant:** Improve About Me sections and project descriptions using any AI tool.
 - **Multiple Templates:** Choose from Minimal, Bento Grid, and Notebook designs.
 - **Live Preview:** Preview your portfolio on desktop, tablet, and mobile layouts.
 - **Local Storage:** Save portfolio data directly in your browser.
@@ -50,7 +50,7 @@ Create a `.env` file in the project root and add:
 AI_API_KEY=your_AI_api_key_here
 ```
 
-Get your API key from Google AI Studio.
+Get your API key from any AI tool.
 
 ### 5. Start the development server
 
