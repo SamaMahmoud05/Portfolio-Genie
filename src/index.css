@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #5046d4;
+  --color-brand-light: #8b7cf8;
+  --color-ink: #1a1a2e;
+  --color-muted: #5a5a78;
+  --color-canvas: #f5f5fb;
+  --color-chip: #ebe9fb;
+  --color-ok: #0f7a5a;
+  --color-night: #0f1324;
+  --color-night-card: #1a1f3a;
+}
+
+body { @apply bg-canvas text-ink font-sans antialiased; }
+.dark body { @apply bg-night text-white; }
