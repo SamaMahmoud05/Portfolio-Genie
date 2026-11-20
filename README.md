@@ -47,7 +47,7 @@ npm install
 Create a `.env` file in the project root and add:
 
 ```env
-GEMINI_API_KEY=your_gemini_api_key_here
+AI_API_KEY=your_AI_api_key_here
 ```
 
 Get your API key from Google AI Studio.
@@ -77,4 +77,4 @@ npm run build
 ```
 ## 📌 Note
 
-NEVER commit your `.env` file or expose your Gemini API key.
+NEVER commit your `.env` file or expose your AI API key.
